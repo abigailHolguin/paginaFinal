@@ -1,0 +1,270 @@
+/*inicio*/
+h1{
+    color: rgb(7, 6, 7);
+    font-family: initial;
+    font-size: 40px;
+}
+.hola{
+    color: crimson;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+/*para centrar barra de inicio*/
+#inicio .menuCSS3{
+    max-width: 2000px;
+	margin: 0 auto;
+	padding: 0 400px;
+	justify-content: flex-start;
+  }
+  /*para centrar barra de inicio*/
+
+ 
+/*barra de busqueda*/
+.menuCSS3 ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a{
+    display: block;
+    padding: 2em;
+    background-color: #ebb0f7;
+    text-decoration: none;
+    color: #191C26;
+}
+.menuCSS3 a:hover 
+{
+    background-color: #f551e7;
+
+}
+.menuCSS3 ul li ul{
+    display: none;
+}
+/*fin barra de busqueda*/
+/* fin de inicio*/
+
+/*Ofertas*/
+/*codigo para centrar la barra de busqueda*/
+#Ofertas .OfertasCSS{
+    max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 360px;
+	justify-content: flex-start;
+}
+/*fin del codigo para centrar la barra de busqueda*/
+
+/*barra de busqueda*/
+.OfertasCSS ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.OfertasCSS a{
+    display: block;
+    padding: 2em;
+    background-color: #ebb0f7;
+    text-decoration: none;
+    color: #191C26;
+}
+.OfertasCSS a:hover 
+{
+    background-color: #f551e7;
+
+}
+.OfertasCSS3 ul li ul{
+    display: none;
+}
+/*fin barra de busqueda*/
+
+
+/*texto antes DE BANNER*/
+.ah{
+	text-align: center;
+	font-family: initial;
+    font-size: 32px;
+	color:  blueviolet;
+}
+.estre{
+    width: 150px;
+    height: 30px;
+}
+/*fin de texto*/
+
+/*INICIO DE BANNER*/
+.hii{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:  center;
+}
+  
+.di{
+    text-align: center;
+    padding-left: 70px;
+    margin-top: 6px;
+    font-family: 'Edu VIC WA NT Beginner';
+    font-size: 16px;
+    color: rgb(53, 51, 51);
+    display: flex;
+}
+.pe{
+    margin-left: 85px;
+}
+.hela{
+    width: 380px;
+    height: 310px;
+}
+/*fin DE BANNER*/
+
+/*centrar banner*/
+.container1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+/*centrar banner*/
+/*separar banner*/
+.container1 .responsive-banner{
+    width: 380px;
+    height: 480px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+	background-image: linear-gradient(to bottom right, #f8caed, #ff97d4);
+
+}
+/*separar banner*/
+
+/*resaltar banner*/
+.container1 .responsive-banner:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+/*resalatar banner*/
+
+/*SABORES*/
+/*Centrar barra de busqueda*/
+#Sabores .SaboresCSS{
+    max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 360px;
+	justify-content: flex-start;
+}
+/*Centrar barra de busqueda*/
+
+/*barra de busqueda*/
+.SaboresCSS ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.SaboresCSS a{
+    display: block;
+    padding: 2em;
+    background-color: #ebb0f7;
+    text-decoration: none;
+    color: #191C26;
+}
+.SaboresCSS a:hover 
+{
+    background-color: #f551e7;
+
+}
+.SaboresCSS3 ul li ul{
+    display: none;
+}
+/*fin barra de busqueda*/
+
+.si{
+    text-align: center;
+	font-family: initial;
+    font-size: 32px;
+	color:  blueviolet;
+}
+  
+/*Centrar banner*/
+.container2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+/*Centrar banner*/
+
+/*Separar banner*/
+.container2 .responsive-banner{
+    width: 380px;
+    height: 450px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+	background-image: linear-gradient(to bottom right, #f8caed, #ff97d4);
+
+}
+/*Resaltar banner*/
+.container2 .responsive-banner:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+body{
+        background-color: rgb(18, 241, 230);
+    }
+
+/*CONTACTANOS*/
+.dire{
+    width: 80px;
+    height: 80px;
+}
+.tele{
+    width: 80px;
+    height:80px ;
+    
+}
+.tb{
+    border-spacing: 50px;
+}
+#Contactanos .ContactanosCSS{
+    max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 360px;
+	justify-content: flex-start;
+}
+/*Centrar barra de busqueda*/
+
+/*barra de busqueda*/
+.ContactanosCSS ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.ContactanosCSS a{
+    display: block;
+    padding: 2em;
+    background-color: #ebb0f7;
+    text-decoration: none;
+    color: #191C26;
+}
+.ContactanosCSS a:hover 
+{
+    background-color: #f551e7;
+
+}
+.ContactanosCSS3 ul li ul{
+    display: none;
+}
+/*fin barra de busqueda*/
+
+
